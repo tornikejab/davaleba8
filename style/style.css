@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header{
+    background-color: #000000;
+    padding: 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/poto1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    float: left;
+    margin-top: -14px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.logo a{
+    width: 70px;
+    height: 70px;
+    text-indent: -99999px;
+    display: block;
+}
+header nav{
+    margin-top: 20px;
+    
+}
+header ul a{
+    padding: 5px 10px;
+    position: relative;
+}
+header ul a::after{
+    content: "";
+    width: 0%;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transition: 2s;
+}
+header ul a:hover::after{
+    width: 100%;
+}
+
+header li{
+    position: relative;
+    float: left;
+    
+    margin-right: 16px;
+}
+header li a{
+    color: #ffffff;
+}
+
+
+.hits{
+    margin-top: 144px;
+    margin-left: 110px;
+}
+.charcho{
+    width: 300px;
+    height: 244px;
+    padding: 100px;
+    border: 1px solid #000000;
+    margin: 50px 110px auto;
+    position: relative;
+    /* display: inline-block; */
+    margin-top: 80px;
+    
+    
+}
+.talgha{
+    width: 288px;
+    height: 65px;
+    background-image: url(../img/poto2.png);
+    margin-top: -40px;
+    margin-left: -96px;
+}
+.laiki{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: -3.6px;
+    right: 0;
+    background-image: url(../img/poto3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.track{
+    margin-left: -90px;
+    margin-top: 24px;
+}
+.artist{
+    margin-left: -96px;
+    margin-top: 14px;
+    
+}
+.linki{
+   margin-top: 44px;
+   margin-left: -103px;
+}
+.mtavari{
+    flex-wrap: wrap;
+}
+.social{
+    height: 100px;
+    width:50px;
+    position: fixed;
+    top: 250px;
+    right: 0;
+}
+.social div{
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.social .fb{
+    background-image: url(../img/fb.png);
+
+}
+.social .fb:hover{
+    background-image: url(../img/fb2.png);
+}
+.social .inst{
+    background-image: url(../img/inst.png);
+  
+}
+.social .inst:hover{
+    background-image: url(../img/insta2.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------playlist------------- */
+
+main nav{
+    display: flex;
+}
+
+main article {
+    margin-top: 150px;
+    margin-left: 100px;
+    width: 280px;
+
+    
+}
+main article h2{
+    margin-bottom: 50px;
+}
+
+.talghebi{
+    width: 288px;
+    height: 65px;
+    background-image: url(../img/poto2.png);
+    margin-top: 46px;
+    margin-left: 805px;
+}
+main article ul li a{
+    color:#000000;
+}
+
+.talghebi1{
+    width: 288px;
+    height: 64px;
+    background-image: url(../img/poto2.png);
+    margin-left: 805px;
+    margin-top: 140px;
+}
+
+main h2{
+    text-align: center;
+    margin-top: 108px;
+}
+
+
+
+
+
+
+
+
+/* ----footer--- */
+
+footer{
+    height: 354px;
+    background-color: #000000;
+    margin-top: 150px;
+    padding: 30px;
+
+}
+.logo2{
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/poto1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+    text-indent: -9999px;
+}
+.logo2 a{
+    width: 70px;
+    height: 70px;
+    display: block;
+}
+footer li{
+    text-align: center;
+    color: #ffffff;
+}
+footer ul{
+    margin-top: 26px;
+}
+
+.rights{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 50px;
+}
